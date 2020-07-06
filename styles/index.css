@@ -1,0 +1,312 @@
+/* MAIN */
+
+.main{
+    height: 300%;
+    width: 100%;
+}
+
+/* HEADER */
+
+header .aw-home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    height: 60px;
+    padding: 0 24px 0;
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+header .aw-home:hover #icon-home{
+    background-image: url("../assets/icons/aw-cyan.png");
+}
+#icon-home{
+    background-image: url("../assets/icons/aw-white.png");
+    background-repeat: no-repeat;
+}
+.aw-icon{
+    background-position: center;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+    margin-left: 8px;
+}
+header .socialMedia{
+    position: absolute;
+    left: 0;
+    margin-left: 24px;
+}
+.menu-button{
+    background-color: transparent;
+    color: white;
+    padding: 0 24px 0;
+    font-size: 24px;
+    cursor: pointer;
+    height: 60px;
+    padding: 0 24px 0 ;
+    border: none;
+}
+.right-menu{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 140px;
+    z-index: 1;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,0.9);
+    border-radius: 0 0 8px 8px;
+}
+.dropdown-menu a{
+    color: var(--secundary-color);
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover{
+      /* background-color: var(--primary-color); */
+      /* color: var(--secundary-color); */
+      color: var(--third-color);
+}
+.right-menu:hover .dropdown-menu{
+    display: block;
+}
+.right-menu:hover .menu-button {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
+header .a-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    height: 60px;
+    padding: 0 24px;
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+
+/* PRIMEIRA SESSÃO */
+
+.primeira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url(../assets/backgrounds/landscape1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.andre-fadein{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: fadeIn 4s;
+    color: var(--third-color);
+}
+.andre-fadein h1{
+    /* color: var(--third-color); */
+    color: var(--secundary-color);
+    font-size: 48px;
+}
+.andre-fadein p{
+    font-size: 24px;
+    /* color: var(--secundary-color); */
+    color: var(--third-color);
+}
+@keyframes fadeIn{
+    from {
+        opacity :0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* SEGUNDA SESSÃO */
+
+.segunda{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh
+}
+.picture{
+    background-image: url(../assets/images/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 24px 0;
+}
+.aboutme{
+    width: 600px;
+    text-align: justify;
+    font-size: 22px;
+    color: var(--primary-color);
+    margin: 0 24px 0;
+}
+.aboutme a{
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+/* TERCEIRA SESSÃO */
+
+
+
+/* .terceira{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    
+}  */
+
+
+  
+
+/* FOOTER  */
+
+.aw-icon2{
+    background-position: center;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+#icon-home2{
+    background-image: url("../assets/icons/aw-white.png");
+    background-repeat: no-repeat;
+}
+footer .aw-home:hover #icon-home2{
+    background-image: url("../assets/icons/aw-cyan.png");
+}
+.socialBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: flex;
+    min-height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-weight: bold;
+    margin: 24px;
+}
+.socialMedia:hover{
+    color:var(--third-color);
+}
+.icon{
+    background-image: url("../assets/icons/github_icon.png");
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+}
+#icon1{
+    background-image: url("../assets/icons/github_white.png");
+}
+.socialMedia:hover #icon1{
+    background-image: url("../assets/icons/github_cyan.png");
+}
+#icon2{
+    background-image: url("../assets/icons/linkedin_white.png");
+}
+.socialMedia:hover #icon2{
+    background-image: url("../assets/icons/linkedin_cyan.png");
+}
+#icon3{
+    background-image: url("../assets/icons/facebook_white.png");
+}
+.socialMedia:hover #icon3{
+    background-image: url("../assets/icons/facebook_cyan.png");
+}
+#icon4{
+    background-image: url("../assets/icons/instagram_white.png");
+}
+.socialMedia:hover #icon4{
+    background-image: url("../assets/icons/instagram_cyan.png");
+}
+#icon5{
+    background-image: url("../assets/icons//twitter_white.png");
+}
+.socialMedia:hover #icon5{
+    background-image: url("../assets/icons/twitter_cyan.png");
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: normal;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--third-color);
+}
+.contact-email{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    text-decoration: none;
+    color: var(--second-color);
+ 
+}
+.email-icon{    
+    background-image: url("../assets/icons/email_icon.png");
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    padding-left: 12px;
+    background-repeat: no-repeat;
+
+}
+.celphone-icon{    
+    background-image: url("../assets/icons/phone-white.png");
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    padding-left: 12px;
+    background-repeat: no-repeat;
+}
+.linkedin-icon{    
+    background-image: url("../assets/icons/linkedin_white.png");
+    background-position: center;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+    padding-left: 12px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+

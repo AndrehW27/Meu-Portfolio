@@ -1,0 +1,29 @@
+/* .motivation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh
+} */
+
+
+#myVideo {
+    position: relative;
+    transform: translate(0, 60px);
+    width: 100vw;
+    z-index: -1;
+    width: 100%;
+    
+}
+
+/* @media(min-aspect-ratio: 16/9){
+    #myVideo{
+        width: auto;
+        height: 100%;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    #myVideo{
+        width: 100%;
+        height: auto;
+    }
+} */
