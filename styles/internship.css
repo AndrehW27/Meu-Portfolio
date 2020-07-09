@@ -1,0 +1,45 @@
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+#first-section {
+    background-image: url(../assets/backgrounds/centro-tecnologico.jpg);
+}
+
+.corvette {
+    background-image: url(../assets/backgrounds/corvette.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 80px;
+    position: absolute;
+    top: 100vh;
+    left: -290px;
+    transform: translate(0vw, -80px);
+    animation-name: goRight;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes goRight {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+/* SEGUNDA SESSÃO */
+
+.picture {
+    background-image: url(../assets/images/gm.jpg);
+}
+.second-section-text p{
+    font-size: 18px;
+}
