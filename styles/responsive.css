@@ -1,107 +1,121 @@
-@media (max-width:920px) {
-    header {
-        font-size: 16px;
-    }
-    .menu-button {
-        font-size: 16px;
-    }
-}
-
-
-@media (max-width:720px) {
-    header {
-        font-size: 10px;
-        padding: 0 12px 0;
-        height: 40px;
-    }
- 
-    .menu-button {
-        font-size: 10px;
-        padding: 0 12px 0;
-        height: 40px;
-    }
+@media (max-width:770px) {
+    /* HEADER */
     header .aw-home {
-        height: 40px;
-        width: 60px;
+        width: 50px;
         border: none;
     }
-    #icon-home {
+    header #icon-home {
         height: 25px;
         width: 25px;
     }
- 
-    #icon-home2 {
-        height: 50px;
-        width: 50px;
+    header .menu-button {
+        font-size: 13px;
+        padding: 0 8px;
     }
-    .backToTop p {
-        font-size: 14px;
+    header .dropdown-menu {
+        min-width: 70px;
+    }
+    header .dropdown-menu a {
+        font-size: 13px;
     }
     header .a-contact {
-        padding: 0 18px 0 12px;
-        margin-right: 6px;
-        height: 40px;
+        font-size: 13px;
+        padding: 0 8px;
     }
-    .andre-fadein h1 {
-   
+    /* FIRST-SECTION */
+    #first-section h1 {
         font-size: 36px;
     }
-    
-    .andre-webBox p {
+    #first-section p {
         font-size: 18px;
-   
     }
-    .segunda {
+    /* SECOND-SECTION */
+    .second-section {
         flex-direction: column;
     }
     .picture {
-        height: 200px;
-        width: 200px;
-        margin-top: 24px;
+        height: 220px;
+        width: 220px;
     }
-    .aboutme {
-        font-size: 14px;
-        margin: 24px;
-        width: 80vw;
+    .second-section-text {
+        margin: 0;
     }
+    .second-section-text h2 {
+        width: 90%;
+        font-size: 24px;
+        margin: 0;
+    }
+    .second-section-text ul {
+        width: 90vw;
+        font-size: 24px;
+    }
+    .second-section-text p {
+        width: 90vw;
+        font-size: 8px;
+        margin: 0;
+    }
+    /* THIRD-SECTION */
+    .third-section {
+        grid-template-columns: 1fr;
+        padding: 8px;
+    }
+    .grid-itens{
+        height: 190px;
+    }
+    /* FOOTER */
     footer {
         flex-direction: column;
     }
-   .backToTop p{
-       margin-bottom: 36px;
-   }
-    .aw-icon2 {
-        margin-top: 18px;
-        height: 50px;
-        width: 50px;
+    footer h3 {
+        font-size: 22px;
     }
-    #contact {
-        margin-top: 24px;
+    footer p {
         font-size: 18px;
     }
-    .socialBox p {
-        font-size: 18px;
+    footer #contact {
+        margin-top: 28px;
+    }
+    footer .socialBox {
+        margin-top: 28px;
+    }
+    footer .backToTop {
+        margin: 32px 0;
+    }
+    .aw-footer{
+        margin-bottom: 12px;
+    }
+    /* PROFESSIONAL */
+    .tab-title {
+        font-size: 12px;
+    }
+    .html-icon {
+        height: 15px;
+        width: 15px;
+        margin-right: 6px;
+    }
+    .css-icon {
+        height: 15px;
+        width: 15px;
+        margin-right: 6px;
+    }
+    .js-icon {
+        height: 15px;
+        width: 15px;
+        margin-right: 6px;
+    }
+    .menu-fechar {
+        display: none;
+    }
+    .numbers-box p {
+        font-size: 20px;
+    }
+    #professional {
+        flex: 1;
+    }
+    #professional p {
+        font-size: 20px;
+    }
+    .bars-box {
+        display: none;
     }
 }
-
-/* @media (max-width:650px) {
-    header {
-        font-size: 12px;
-        padding: 0 12px 0;
-    }
-    .menu-button {
-        font-size: 12px;
-        padding: 0 12px 0;
-    }
-}
-
-@media (max-width:560px) {
-    header {
-        font-size: 12px;
-        padding: 0 6px 0;
-    }
-    .menu-button {
-        font-size: 12px;
-        padding: 0 6px 0;
-    }
-} */

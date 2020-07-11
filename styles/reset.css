@@ -190,7 +190,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     animation-name: fadein-subtitle;
-    animation-duration: 10s;
+    animation-duration: 6s;
     color: var(--third-color);
 }
 @keyframes fadein-title {
@@ -236,6 +236,19 @@ header {
 }
 .second-section-text h2{
     margin-bottom: 24px;
+    text-align: center;
+}
+
+/* THIRD-SECTION */
+
+
+.third-section {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    padding: 24px;
+    align-content: center;
 }
 
 /* FOOTER  */
@@ -261,6 +274,9 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+#contact h3{
+    margin-bottom: 12px;
 }
 .contact-email {
     display: flex;
@@ -343,7 +359,9 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.socialBox h2{
+.socialBox h3{
+    text-align: center;
+    width: 100%;
     margin-bottom: 24px;
 }
 .socialBox-icons {

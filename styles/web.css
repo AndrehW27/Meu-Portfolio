@@ -1,13 +1,17 @@
 /* PRIMEIRA SESSÃO */
 
 #first-section {
-    background-image: url(../assets/backgrounds/freela.jpg);
+    background-image: url(../assets/backgrounds/web.jpg);
 }
 
 /* SEGUNDA SESSÃO */
 
 .picture {
-    background-image: url(../assets/images/job.png);
+    background-image: url(../assets/images/front.jpg);
+}
+
+.second-section-text a {
+    color: var(--third-color);
 }
 
 /* THIRD-SECTION */
