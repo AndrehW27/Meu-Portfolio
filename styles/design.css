@@ -37,3 +37,16 @@
     background-image: url(../assets/images/fimderole.png);
     background-size: contain;
 }
+
+#img15 {
+    background-image: url(../assets/images/suburguer-logo.jpg);
+    background-size: contain;
+}
+
+#img16 {
+    background-image: url(../assets/images/suburguer-panfleto.jpg);
+    background-size: contain;
+    height: 815px;
+
+}
+
