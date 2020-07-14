@@ -92,6 +92,12 @@
         font-size: 14px;
     }
 
+    /* BARS */
+
+    .html-tab, .html-tab1{
+        font-size: 12px;
+    }
+
     /* FOOTER */
     footer {
         flex-direction: column;
