@@ -272,7 +272,8 @@ header {
 }
 
 .second-section-text {
-    width: 600px;
+    min-width: 600px;
+    max-width: 800px;
     text-align: justify;
     font-size: 22px;
     color: var(--primary-color);
