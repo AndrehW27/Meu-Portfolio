@@ -14,6 +14,7 @@
 #img11 {
     background-image: url(../assets/images/napressao.png);
     background-size: contain;
+    width: 450px;
     /* height: 550px;
     width: 915px; */
     /* border: 1px solid black; */
@@ -36,11 +37,15 @@
 #img14 {
     background-image: url(../assets/images/fimderole.png);
     background-size: contain;
+    width: 450px;
+
 }
 
 #img15 {
     background-image: url(../assets/images/suburguer-logo.jpg);
     background-size: contain;
+    width: 450px;
+    
 }
 
 #img16 {

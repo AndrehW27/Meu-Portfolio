@@ -9,68 +9,98 @@
         width: 25px;
     }
     header .menu-button {
-        font-size: 13px;
+        font-size: 12px;
         padding: 0 8px;
     }
     header .dropdown-menu {
         min-width: 70px;
     }
     header .dropdown-menu a {
-        font-size: 13px;
+        font-size: 12px;
     }
     header .a-contact {
-        font-size: 13px;
+        font-size: 12px;
         padding: 0 8px;
     }
     /* FIRST-SECTION */
-    #first-section h1 {
-        font-size: 36px;
+    .first-section-title h1 {
+        font-size: 24px;
     }
-    #first-section p {
-        font-size: 18px;
+    .first-section-title p {
+        font-size: 12px;
+    }
+    .first-section-title {
+        max-width: 250px;
+        padding: 0 12px;
     }
     /* SECOND-SECTION */
     .second-section {
         flex-direction: column;
+        margin: 0;
     }
-    .picture {
+    #skills{
+        font-size: 24px;
+    }
+    ul{
+        padding: 0 24px 0 48px;
+        margin-bottom: 24px;
+    }
+    ul a{
+        font-size: 14px;
+    }
+    #picture {
         height: 220px;
         width: 220px;
     }
-    .second-section-text {
-        margin: 0;
-    }
     .second-section-text h2 {
-        width: 90%;
         font-size: 24px;
         margin: 0;
-    }
-    .second-section-text ul {
-        width: 90vw;
-        font-size: 24px;
     }
     .second-section-text p {
-        width: 90vw;
-        font-size: 8px;
-        margin: 0;
+        font-size: 14px;
     }
+    .second-section-text p a{
+        font-size: 14px;
+    }
+    .second-section-text ul {
+        font-size: 14px;
+    }
+    
     /* THIRD-SECTION */
     .third-section {
-        grid-template-columns: 1fr;
-        padding: 8px;
+        flex-direction: column;
+        margin: 0 24px;
     }
-    .grid-itens {
-        height: 190px;
+    .images {
+        width: 100vw;
+        height: 200px;
     }
+    #img12{
+        width: 200px;
+    }
+    #img16{
+        height: 450px;
+    }
+    .third-section-description p{
+        width: 320px;
+    }
+    .third-section-description h2{
+        margin-top: 12px;
+        font-size: 24px;
+    }
+    .third-section-description p, .third-section-description a{
+        font-size: 14px;
+    }
+
     /* FOOTER */
     footer {
         flex-direction: column;
     }
     footer h3 {
-        font-size: 22px;
+        font-size: 24px;
     }
     footer p {
-        font-size: 18px;
+        font-size: 14px;
     }
     footer #contact {
         margin-top: 28px;
@@ -82,7 +112,7 @@
         margin: 32px 0;
     }
     .aw-footer {
-        margin-bottom: 13px;
+        margin-bottom: 12px;
     }
     /* WEB */
     #img1-box {
@@ -130,19 +160,19 @@
     }
     .english {
         height: 6px;
-        margin-bottom: 13px;
+        margin-bottom: 12px;
     }
     .html {
         height: 6px;
-        margin-bottom: 13px;
+        margin-bottom: 12px;
     }
     .js {
         height: 6px;
-        margin-bottom: 13px;
+        margin-bottom: 12px;
     }
     .react {
         height: 6px;
-        margin-bottom: 13px;
+        margin-bottom: 12px;
     }
     .react2 {
         margin-bottom: 78px;
