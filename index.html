@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,18 @@
         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/education.css">
+        <link rel="stylesheet" href="./styles/exchange.css">
+        <link rel="stylesheet" href="./styles/internship.css">
+        <link rel="stylesheet" href="./styles/professional.css">
+        <link rel="stylesheet" href="./styles/courses.css">
+        <link rel="stylesheet" href="./styles/web.css">
+        <link rel="stylesheet" href="./styles/design.css">
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/responsive.css">
 
     </head>
+
     <body>
 
         <header>
@@ -22,27 +31,25 @@
             <div class="right-menu">
                 <button class="menu-button">Experiências</button>
                 <div class="dropdown-menu">
-                    <a href="./views/education.html">Educação</a>
-                    <a href="./views/exchange.html">Intercâmbio</a>
-                    <a href="./views/internship.html">Estágio</a>
-                    <a href="./views/freelance.html">Free Lances</a>
+                    <a href="#first-section-education">Educação</a>
+                    <a href="#first-section-exchange">Intercâmbio</a>
+                    <a href="#first-section-intern">Estágio</a>
                 </div>
             </div>
 
             <div class="right-menu">
                 <button class="menu-button">Habilidades</button>
                 <div class="dropdown-menu">
-                    <a href="./views/professional.html">Profissionais</a>
-                    <a href="./views/personal.html">Pessoais</a>                    
-                    <a href="./views/courses.html">Cursos</a>
+                    <a href="#first-section-courses">Cursos</a>
+                    <a href="#first-section-professional">Skills</a>
                 </div>
             </div>
 
             <div class="right-menu">
                 <button class="menu-button">Portifolio</button>
                 <div class="dropdown-menu">
-                    <a href="./views/web.html">Web</a>
-                    <a href="./views/freelance.html">Design</a>
+                    <a href="#first-section-web">Web</a>
+                    <a href="#first-section-design">Design</a>
 
                 </div>
             </div>
@@ -50,7 +57,9 @@
             <a class="a-contact" href="#contact">Contato</a>
         </header>
 
-        <section id="first-section">
+        <!-- HOME -->
+
+        <section id="first-section" class="home-background">
 
             <div class="first-section-title">
                 <div class="title-fadein">
@@ -62,7 +71,7 @@
         </section>
 
         <section class="second-section">
-            <div class="picture"></div>
+            <div id="picture" class="home-picture"></div>
             <div class="second-section-text">
                 <h2>Sobre mim</h2>
                 <p>
@@ -70,6 +79,417 @@
                 </p>
             </div>
         </section>
+
+        <!-- EDUCATION -->
+
+        <section id="first-section-education" class="education-background">
+
+            <div class="first-section-title">
+                <div class="title-fadein">
+                    <h1>Universidade Federal do ABC</h1>
+                </div>
+                <p class="subtitle-fadein">BC&T e Engenharia de Materiais</p>
+            </div>
+
+        </section>
+
+        <section class="second-section">
+            <div id="picture" class="education-picture"></div>
+            <div class="second-section-text">
+                <h2>Ensino Superior e Técnico</h2>
+                <p>
+                    <ul>
+                        <li>Engenharia de Materiais (UFABC) 2017 - atual</li>
+                        <li>Bacharelado em Ciência e Tecnologia (UFABC) 2012 - 2017</li>
+                        <li>Técnico em Mecatrônica (ETECGV) 2009 - 2010</li>
+                        <li>Ensino Médio (ETECGV) 2008 - 2010</li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+
+        <!-- EXCHANGE -->
+
+        <section id="first-section-exchange" class="exchange-background">
+
+            <div class="first-section-title">
+                <div class="title-fadein">
+                    <h1>Wayne State University</h1>
+                </div>
+                <p class="subtitle-fadein">Intercâmbio nos Estados Unidos</p>
+            </div>
+
+        </section>
+
+        <section class="second-section">
+            <div id="picture" class="exchange-picture"></div>
+            <div class="second-section-text">
+                <h2>Intercâmbio pelo CSF</h2>
+                Em 2014, tive a oportunidade através do programa ciência sem fronteiras, de fazer um intercâmbio em Detroit - MI - EUA, por um período de 11 meses.
+                <br>
+                O curso em si, foi uma graduação sanduíche, que consiste em inciar o curso superior no Brasil, fazer uma parte no exterior e depois retornar para concluir, o curso em questão foi o bacharelado em ciência e tecnologia, o qual eu concluí em 2017 pela Universidade Federal do ABC.
+            </div>
+        </section>
+
+        <!-- INTERN -->
+
+        <section id="first-section-intern" class="intern-background">
+
+            <div class="first-section-title">
+                <div class="title-fadein">
+                    <h1>General Motors</h1>
+                </div>
+                <p class="subtitle-fadein">Demand & Supply Management</p>
+            </div>
+            <!-- <div class="corvette"></div> -->
+
+        </section>
+
+        <section class="second-section">
+            <div id="picture" class="intern-picture"></div>
+            <div class="second-section-text">
+                <h2>Estágio em DSM
+                    <br>
+                    04/19 – 12/19</h2>
+                <p>
+                    <ul>
+                        <li>Atualização e criação de relatórios de análise comparativa de produção e volume programado.</li>
+                        <li>Consolidação de dados e apresentações de informações, como participação de mercado e volume da indústria.</li>
+                        <li>Envio de pedidos de veículos para a planta através de sistema de gerenciamento de pedidos(POMS) e acompanhamento próximo ao time de planejamento e controle de produção.</li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+
+        <!-- COURSES -->
+
+        <section id="first-section-courses" class="courses-background">
+
+            <div class="first-section-title">
+                <div class="title-fadein">
+                    <h1>Cursos</h1>
+                </div>
+                <p class="subtitle-fadein">Conhecimento não ocupa espaço...</p>
+            </div>
+
+        </section>
+
+        <section class="second-section">
+            <div id="picture" class="courses-picture"></div>
+            <div class="second-section-text">
+                <h2>Todos os cursos realizados</h2>
+                <p>
+                    <ul>
+                        <li>Desenvolvedor Júnior - Generation Brasil – 480 horas (07/2020 - 10/2020)</li>
+                        <li>Web Front End & React - Let’s Code – 48 horas</li>
+                        <li>Semana OmniStack11 - RocketSeat – 10 horas</li>
+                        <li>Next Level Week 1 - RocketSeat – 10 horas</li>
+                        <li>HTML fundamentals course – SoloLearn</li>
+                        <li>CSS fundamentals course – SoloLearn</li>
+                        <li>8 Week Summer Session - ELI (WSU) - 112 horas</li>
+                        <li>O Curso Completo de Microsoft Excel – Udemy</li>
+                        <li>Macros VBA para Excel Completo – Udemy</li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+
+        <!-- PROFESSIONAL -->
+
+        <div id="first-section-professional" class="professional-background">
+            <div id="tab-title">
+
+                <div class="html-tab">
+                    <div class="css-icon"></div>
+                    mySkills.css
+                </div>
+                <div class="html-tab">
+                    <div class="js-icon"></div>
+                    mySkills.js
+                </div>
+                <div class="html-tab1">
+                    <div class="html-icon"></div>
+                    mySkills.html
+                </div>
+                <!-- <div class="menu-fechar"> <div class="icon-minimize"></div> <div class="icon-maximize"></div> <div class="icon-fechar"></div> </div>-->
+            </div>
+
+            <div class="code">
+
+                <div class="numbers-box">
+                    <p class="numbers">1</p>
+                    <p class="numbers">2</p>
+                    <p class="numbers">3</p>
+                    <p class="numbers">4</p>
+                    <p class="numbers">5</p>
+                    <p class="numbers">6</p>
+                    <p class="numbers">7</p>
+                    <p class="numbers">8</p>
+                    <p class="numbers">9</p>
+                    <p class="numbers">10</p>
+                    <p class="numbers">11</p>
+                    <p class="numbers">12</p>
+                    <p class="numbers">13</p>
+                    <p class="numbers">14</p>
+                    <p class="numbers">15</p>
+                    <p class="numbers">16</p>
+                    <p class="numbers">17</p>
+                    <p class="numbers">18</p>
+                    <p class="numbers">19</p>
+                    <p class="numbers">20</p>
+                    <p class="numbers">21</p>
+                    <p class="numbers">22</p>
+                    <!-- <p class="numbers">23</p> <p class="numbers">24</p> <p class="numbers">25</p> <p class="numbers">26</p> <p class="numbers">27</p> -->
+                </div>
+
+                <section id="professional">
+                    <p>
+                        <span style="color:#F87217">let</span>
+                        <span style="color:#5EFB6E">professionalSkills</span>
+                        <span style="color:#FF00FF">=</span>
+                        {</p>
+                    <p class="objects">english<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">90</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">html5<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">css3<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">excel<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">vba<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">javascript<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">50</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">illustrator<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">50</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">photoshop<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">50</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">react<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">30</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">reactNative<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">30</span><span style="color:#FF00FF">,</span></p>
+                    <p>};</p>
+
+                    <br>
+
+                    <p>
+                        <span style="color:#F87217">let</span>
+                        <span style="color:#5EFB6E">personalSkills</span>
+                        <span style="color:#FF00FF">=</span>
+                        {</p>
+                    <p class="objects">resposabilidade<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">90</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">criatividade<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">apredizagem<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">inteligência<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">dedicação<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">80</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">liderança<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">50</span><span style="color:#FF00FF">,</span></p>
+                    <p class="objects">visãoDeNegócio<span style="color:#FF00FF">:</span>
+                        <span style="color:#A23BEC">50</span><span style="color:#FF00FF">,</span></p>
+
+                    <p>};</p>
+
+                </section>
+
+                <div class="bars-box">
+
+                    <!-- PROFESSIONAL -->
+
+                    <!-- <div class="professional-bars"> -->
+
+                    <div class="english"></div>
+
+                    <div class="html"></div>
+
+                    <div class="html"></div>
+
+                    <div class="html"></div>
+
+                    <div class="html"></div>
+
+                    <div class="js"></div>
+
+                    <div class="js"></div>
+
+                    <div class="js"></div>
+
+                    <div class="react"></div>
+
+                    <div class="react2"></div>
+                    <!-- </div> -->
+
+                    <!-- <br><br><br> -->
+
+                    <!-- PERSONAL -->
+
+                    <!-- <div class="personal-bars"> -->
+
+                    <div class="english"></div>
+
+                    <div class="html"></div>
+
+                    <div class="html"></div>
+
+                    <div class="html"></div>
+
+                    <div class="html"></div>
+
+                    <div class="js"></div>
+
+                    <div class="js"></div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- WEB -->
+
+        <section id="first-section-web" class="web-background">
+
+            <div class="first-section-title">
+                <div class="title-fadein">
+                    <h1>Desenvolvimento Web</h1>
+                </div>
+                <p class="subtitle-fadein">Front-End</p>
+            </div>
+
+        </section>
+
+        <section class="second-section">
+            <div id="picture" class="web-picture"></div>
+            <div class="second-section-text">
+                <h2>Meus projetos</h2>
+                <p>
+                    Aqui você pode encontrar meus projetos de desenvolvimento web, alguns são totalmente desenvolvimento próprio, outros foram desenvolvidos durante cursos, todos pode você ver uma descrição completa ou acessar o códifo-fonte em meus repositórios no
+                    <a href="https://github.com/AndrehW27/" target="_blank" rel="noopener noreferrer">GitHub</a>.
+                </p>
+            </div>
+        </section>
+
+        <section class="third-section">
+            <div class="third-section-title">
+                <h2>Calculadora de IMC</h2>
+            </div>
+            <div id="img1" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Primeiro projeto estático (HTML/ CSS/ JavaScript), com ele pude aprender/aprimorar principalmente conceitos básicos/intermediários de desenvolvimento front-end, para mais informações, acesse o repositório em meu repositório no GitHub em
+                    <a href="https://github.com/AndrehW27/Meu-Portifolio" target="_blank" rel="noopener noreferrer">IMC</a>. Acesse a aplicação
+                    <a href="https://andrehw27.github.io/Calculadora_IMC_Peso-Ideal/" target="_blank">aqui</a>.
+                </p>
+            </div>
+
+            <div class="third-section-title">
+                <h2>Meu Site</h2>
+            </div>
+            <div id="img2" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Este site é uma aplicação estática (HTML/ CSS/ JavaScript), que foi utilizado conceitos de boas práticas e organização de código durante seu desenvolvimento, caso tenha interesse em mais informações, pode acessá-lo em meu repositório no GitHub em
+                    <a href="https://github.com/AndrehW27/Meu-Portifolio" target="_blank" rel="noopener noreferrer">Meu site</a>.
+                </p>
+            </div>
+
+            <div class="third-section-title">
+                <h2>Ecoleta</h2>
+            </div>
+            <div id="img3" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Aplicação desenvolvida no curso Next Level Week #1 da Rocket Seat, com a intenção de encontrar pontos de coleta seletiva, projeto mais complexo utilizando ferramentas como Node.js e SQLite3 para o back-end, entre outras, para mais informações, acesse o repositório no GitHub em
+                    <a href="https://andrehw27.github.io/Calculadora_IMC_Peso-Ideal/" target="_blank">Ecoleta</a>. Acesse a aplicação
+                    <a href="https://nlw--ecoleta.herokuapp.com/" target="_blank">aqui</a>.
+                </p>
+            </div>
+
+            <div class="third-section-title">
+                <h2>Be The Hero</h2>
+            </div>
+            <div id="img4" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Aplicação desenvolvida no curso Semana OmniStack #8 da Rocket Seat, com a intenção de ajudar ONGs a obter suportes financeiros, projeto desenvolvido com React e React Native para mobile, para mais informações, acesse o repositório no GitHub em
+                    <a href="https://github.com/AndrehW27/SemanaOmniStack11.BeTheHero" target="_blank">Be The Hero</a>.
+                </p>
+            </div>
+        </section>
+
+        <!-- DESIGN -->
+
+        <section id="first-section-design" class="design-background">
+
+            <div class="first-section-title">
+                <div class="title-fadein">
+                    <h1>Freelas</h1>
+                </div>
+                <p class="subtitle-fadein">Design</p>
+            </div>
+
+        </section>
+
+        <section class="second-section">
+            <div id="picture" class="design-picture"></div>
+            <div class="second-section-text">
+                <h2>Trabalhos Executados</h2>
+                <p>
+                    Fiz alguns trabalhos de design, utilizando softwares como Photoshop e Illustrator.
+                    <br>
+                    Esses trabalhos podem ser vistos logo abaixo, como logos, capas e layouts.
+                </p>
+            </div>
+        </section>
+
+    <section class="third-section">
+            <div class="third-section-title">
+                <h2>Logo - Na Pressão</h2>
+            </div>
+            <div id="img11" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Arte criada para um quadro do podcast Marcha e Sai, um podcast sobre o universo gastronômico, você pode encontrá-lo no Spotify
+                    <a href="https://open.spotify.com/show/3fvHgSmOBf2Z3E6nP8szSA" target="_blank" rel="noopener noreferrer">aqui</a>.
+                </p>
+            </div>
+
+            <div class="third-section-title">
+                <h2>Layout - Marcha e Sai</h2>
+            </div>
+            <div id="img12" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Layout criado para postar o lançamento de novos episódios do podcast Marcha e Sai no Instagram, acesse o instagram deles
+                    <a href="https://www.instagram.com/marchaesaipodcast/?hl=pt-br" target="_blank" rel="noopener noreferrer">aqui</a>.
+                </p>
+            </div>
+
+            <div class="third-section-title">
+                <h2>Capa - Apoie-se</h2>
+            </div>
+            <div id="img13" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                    Mais um trabalho para o podcast Marcha e sai, agora uma capa para o site apoie-se para dar um suporte ao podcast, você pode conferir a capa, e se quiser contribuir com o podcast
+                    <a href="https://" target="_blank">aqui</a>.
+                </p>
+            </div>
+
+            <div class="third-section-title">
+                <h2>Logo - Fim de Rolê</h2>
+            </div>
+            <div id="img14" class="images"></div>
+            <div class="third-section-description">
+                <p>
+                   Logo criado para o projeto de lançamento de um podcast novo, chamado fim de rolê, um podcast sobre todas as fases da vida entre a adolescência e o início da vida adulta.
+                </p>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
 
         <footer>
 
@@ -117,4 +537,5 @@
         </footer>
 
     </body>
+
 </html>

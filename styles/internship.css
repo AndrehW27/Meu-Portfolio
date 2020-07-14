@@ -1,29 +1,30 @@
-body {
+/* body {
     overflow-x: hidden;
 }
 
 html {
     overflow-x: hidden;
-}
+} */
 
-#first-section {
+.intern-background {
     background-image: url(../assets/backgrounds/centro-tecnologico.jpg);
 }
 
-.corvette {
+/* .corvette {
     background-image: url(../assets/backgrounds/corvette.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 290px;
     height: 80px;
-    position: absolute;
+    position: relative;
     top: 100vh;
     left: -290px;
     transform: translate(0vw, -80px);
     animation-name: goRight;
     animation-duration: 5s;
     animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes goRight {
@@ -33,10 +34,10 @@ html {
     to {
         left: 100%;
     }
-}
+} */
 
 /* SEGUNDA SESSÃO */
 
-.picture {
+.intern-picture {
     background-image: url(../assets/images/gm.jpg);
 }

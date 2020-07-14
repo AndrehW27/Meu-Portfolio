@@ -1,12 +1,13 @@
 /* PRIMEIRA SESSÃO */
 
-#first-section {
+.web-background {
     background-image: url(../assets/backgrounds/web.jpg);
+    margin-top: 60px;
 }
 
 /* SEGUNDA SESSÃO */
 
-.picture {
+.web-picture {
     background-image: url(../assets/images/front.jpg);
 }
 
@@ -16,24 +17,30 @@
 
 /* THIRD-SECTION */
 
-.grid-itens{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 335px;
-    transition: 400ms;
-    border: 1px solid var(--primary-color);
-}
 #img1 {
     background-image: url(../assets/images/imc.jpg);
-}
-#img2 {
-    background-image: url(../assets/images/portifolio.JPG);
-}
-#img3 {
-    background-image: url(../assets/images/ecoleta.jpg);
-}
-#img4 {
-    background-image: url(../assets/images/bethehero.jpg);
+    border: 1px solid black;
 }
 
+#img2 {
+    background-image: url(../assets/images/portifolio.JPG);
+    border: 1px solid black;
+}
+
+#img3 {
+    background-image: url(../assets/images/ecoleta.jpg);
+    border: 1px solid black;
+}
+
+#img4 {
+    background-image: url(../assets/images/bethehero.jpg);
+    border: 1px solid black;
+}
+
+/* #img1:hover ~ .third-section-description{
+   display: none;
+}
+#img1:hover{
+    height: 100%;
+    width: 100%;
+} */

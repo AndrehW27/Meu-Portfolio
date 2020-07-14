@@ -1,12 +1,11 @@
-/* PRIMEIRA SESSÃO */
 
-#first-section {
+.home-background {
 background-image: url(../assets/backgrounds/landscape1.jpg);
 }
 
 /* SEGUNDA SESSÃO */
 
-.picture {
+.home-picture {
     background-image: url(../assets/images/profile.jpg);
 }
 

@@ -1,0 +1,39 @@
+/* PRIMEIRA SESSÃO */
+.design-background {
+    background-image: url(../assets/backgrounds/freela.jpg);
+}
+
+/* SEGUNDA SESSÃO */
+
+.design-picture {
+    background-image: url(../assets/images/job.png);
+}
+
+/* THIRD-SECTION */
+
+#img11 {
+    background-image: url(../assets/images/napressao.png);
+    background-size: contain;
+    /* height: 550px;
+    width: 915px; */
+    /* border: 1px solid black; */
+
+}
+
+#img12 {
+    background-image: url(../assets/images/Layout\ -\ Marcha\ e\ Sai.png);
+    background-size: contain;
+    width: 450px;
+    border: 1px solid black;
+}
+
+#img13 {
+    background-image: url(../assets/images/apoiase.jpg);
+    
+    border: 1px solid black;
+}
+
+#img14 {
+    background-image: url(../assets/images/fimderole.png);
+    background-size: contain;
+}

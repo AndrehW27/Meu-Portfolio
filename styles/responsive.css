@@ -59,7 +59,7 @@
         grid-template-columns: 1fr;
         padding: 8px;
     }
-    .grid-itens{
+    .grid-itens {
         height: 190px;
     }
     /* FOOTER */
@@ -81,8 +81,12 @@
     footer .backToTop {
         margin: 32px 0;
     }
-    .aw-footer{
-        margin-bottom: 12px;
+    .aw-footer {
+        margin-bottom: 13px;
+    }
+    /* WEB */
+    #img1-box {
+        flex-direction: column;
     }
     /* PROFESSIONAL */
     .tab-title {
@@ -106,16 +110,41 @@
     .menu-fechar {
         display: none;
     }
+    .numbers-box {
+        padding-top: 28px;
+        padding-left: 12px;
+    }
     .numbers-box p {
-        font-size: 20px;
+        font-size: 12px;
     }
     #professional {
+        padding-left: 12px;
         flex: 1;
     }
     #professional p {
-        font-size: 20px;
+        font-size: 12px;
     }
     .bars-box {
-        display: none;
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .english {
+        height: 6px;
+        margin-bottom: 13px;
+    }
+    .html {
+        height: 6px;
+        margin-bottom: 13px;
+    }
+    .js {
+        height: 6px;
+        margin-bottom: 13px;
+    }
+    .react {
+        height: 6px;
+        margin-bottom: 13px;
+    }
+    .react2 {
+        margin-bottom: 78px;
     }
 }

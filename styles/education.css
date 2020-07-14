@@ -1,11 +1,11 @@
 /* PRIMEIRA SESSÃO */
 
-#first-section {
+.education-background {
     background-image: url(../assets/backgrounds/ufabc10.jpg);
 }
 
 /* SEGUNDA SESSÃO */
 
-.picture {
+.education-picture {
     background-image: url(../assets/images/formatura2.jpg);
 }
