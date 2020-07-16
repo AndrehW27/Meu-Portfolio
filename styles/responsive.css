@@ -38,14 +38,14 @@
         flex-direction: column;
         margin: 0;
     }
-    #skills{
+    #skills {
         font-size: 24px;
     }
-    ul{
+    ul {
         padding: 0 24px 0 48px;
         margin-bottom: 24px;
     }
-    ul a{
+    ul a {
         font-size: 14px;
     }
     #picture {
@@ -59,13 +59,12 @@
     .second-section-text p {
         font-size: 14px;
     }
-    .second-section-text p a{
+    .second-section-text p a {
         font-size: 14px;
     }
     .second-section-text ul {
         font-size: 14px;
     }
-    
     /* THIRD-SECTION */
     .third-section {
         flex-direction: column;
@@ -74,30 +73,29 @@
     .images {
         width: 100vw;
         height: 200px;
+        margin-left: 0;
+
     }
-    #img12{
+    #img12 {
         width: 200px;
     }
-    #img16{
+    #img16 {
         height: 450px;
     }
-    .third-section-description p{
+    .third-section-description p {
         width: 320px;
     }
-    .third-section-description h2{
+    .third-section-description h2 {
         margin-top: 12px;
         font-size: 24px;
     }
-    .third-section-description p, .third-section-description a{
+    .third-section-description p, .third-section-description a {
         font-size: 14px;
     }
-
     /* BARS */
-
-    .html-tab, .html-tab1{
+    .html-tab, .html-tab1 {
         font-size: 12px;
     }
-
     /* FOOTER */
     footer {
         flex-direction: column;

@@ -311,16 +311,15 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
+    margin: 24px 64px;
+    flex: 1;
 }
 
 .third-section-description a {
     color: var(--third-color);
 }
 
-.third-section-description p {
-    width: 400px;
-}
+
 .images {
     background-position: center;
     background-size: cover;
@@ -328,6 +327,7 @@ header {
     height: 450px;
     width: 815px;
     transition: 400ms;
+    margin-left: 64px;
 }
 
 /* FOOTER  */
