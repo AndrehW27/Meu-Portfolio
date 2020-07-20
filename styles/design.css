@@ -1,4 +1,5 @@
 /* PRIMEIRA SESSÃO */
+
 .design-background {
     background-image: url(../assets/backgrounds/freela.jpg);
 }
@@ -18,7 +19,6 @@
     /* height: 550px;
     width: 915px; */
     /* border: 1px solid black; */
-
 }
 
 #img12 {
@@ -29,30 +29,32 @@
 }
 
 #img13 {
-    background-image: url(../assets/images/apoiase.jpg);
-    
+    background-image: url(../assets/images/radioFogao.jpg);
+    background-size: contain;
+    width: 450px;
     border: 1px solid black;
 }
 
 #img14 {
-    background-image: url(../assets/images/fimderole.png);
-    background-size: contain;
-    width: 450px;
-
+    background-image: url(../assets/images/apoiase.jpg);
+    border: 1px solid black;
 }
 
 #img15 {
-    background-image: url(../assets/images/suburguer-logo.jpg);
+    background-image: url(../assets/images/fimderole.png);
     background-size: contain;
     width: 450px;
-    
 }
 
 #img16 {
+    background-image: url(../assets/images/suburguer-logo.jpg);
+    background-size: contain;
+    width: 450px;
+}
+
+#img17 {
     background-image: url(../assets/images/suburguer-panfleto.jpg);
     background-size: contain;
     height: 815px;
     width: 650px;
-
 }
-
