@@ -1,0 +1,44 @@
+/* body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+} */
+
+.itau-background {
+    background-image: url(../assets/backgrounds/itau_bg.jpg);
+}
+
+/* .corvette {
+    background-image: url(../assets/backgrounds/corvette.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 80px;
+    position: relative;
+    top: 100vh;
+    left: -290px;
+    transform: translate(0vw, -80px);
+    animation-name: goRight;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goRight {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 100%;
+    }
+} */
+
+/* SEGUNDA SESSÃO */
+
+.itau-picture {
+    background-image: url(../assets/images/itau_perfil.jfif
+    );
+}

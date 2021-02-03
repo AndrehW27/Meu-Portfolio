@@ -181,7 +181,7 @@ header {
 
 /* FIRST-SECTION */
 
-#first-section, #first-section-education, #first-section-exchange, #first-section-intern, #first-section-courses, #first-section-web, #first-section-design {
+#first-section, #first-section-education, #first-section-exchange, #first-section-intern, #first-section-itau, #first-section-courses, #first-section-web, #first-section-design {
     display: flex;
     flex-direction: column;
     align-items: center;
