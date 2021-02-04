@@ -8,6 +8,8 @@ html {
 
 .intern-background {
     background-image: url(../assets/backgrounds/centro-tecnologico.jpg);
+    position: relative;
+    background-attachment: fixed;
 }
 
 /* .corvette {

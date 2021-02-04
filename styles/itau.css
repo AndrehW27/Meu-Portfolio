@@ -8,6 +8,8 @@ html {
 
 .itau-background {
     background-image: url(../assets/backgrounds/itau_bg.jpg);
+    position: relative;
+    background-attachment: fixed;
 }
 
 /* .corvette {

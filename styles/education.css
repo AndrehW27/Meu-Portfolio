@@ -2,6 +2,8 @@
 
 .education-background {
     background-image: url(../assets/backgrounds/ufabc10.jpg);
+    position: relative;
+    background-attachment: fixed;
 }
 
 /* SEGUNDA SESSÃO */

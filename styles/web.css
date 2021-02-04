@@ -2,6 +2,8 @@
 
 .web-background {
     background-image: url(../assets/backgrounds/web.jpg);
+    position: relative;
+    background-attachment: fixed;
     margin-top: 60px;
 }
 
@@ -34,6 +36,11 @@
 
 #img4 {
     background-image: url(../assets/images/bethehero.jpg);
+    border: 1px solid black;
+}
+
+#img5 {
+    background-image: url(../assets/images/impacta.JPG);
     border: 1px solid black;
 }
 

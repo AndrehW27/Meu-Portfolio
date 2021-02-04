@@ -2,6 +2,8 @@
 
 .courses-background {
     background-image: url(../assets/backgrounds/cursos7.jpg);
+    position: relative;
+    background-attachment: fixed;
 }
 
 /* SEGUNDA SESSÃO */
