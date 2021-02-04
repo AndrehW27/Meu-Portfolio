@@ -8,6 +8,8 @@
 
         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;800&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
         <link rel="stylesheet" href="./styles/index.css">
         <link rel="stylesheet" href="./styles/education.css">
         <link rel="stylesheet" href="./styles/exchange.css">
@@ -59,12 +61,11 @@
             <a class="a-contact" href="#contact">Contato</a>
         </header>
 
-        <!-- BOTAO UP -->
+        <!-- BOTAO + -->
 
-        <a class="botaoup" href="#first-section">
-            <div id="flex">
-                <div id="up"></div>
-                <div id="icon-home2"></div>
+        <a class="botao-mais" href="#first-section">
+            <div id="coluna-box">
+                <div id="icon-mais"></div>
             </div>
         </a>
 
@@ -72,7 +73,7 @@
 
         <section id="first-section" class="home-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-offset="200" data-aos-duration="3000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>André Willian</h1>
                 </div>
@@ -82,10 +83,10 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="home-picture"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="home-picture"></div>
             <div class="second-section-text">
-                <h2>Sobre mim</h2>
-                <p>
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Sobre mim</h2>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Sempre gostei de resolução de problemas, raciocínio lógico, e criar coisas novas, comecei minha carreira acreditando que a engenharia fosse o caminho para me realizar profissionalmente, mas foi dentro da programação que me encontrei, e essa descoberta de poder trabalhar com o que realmente gosto me deixa animado para o futuro!
                 </p>
             </div>
@@ -95,7 +96,7 @@
 
         <section id="first-section-education" class="education-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>Universidade Federal do ABC</h1>
                 </div>
@@ -105,11 +106,11 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="education-picture"></div>
+
             <div class="second-section-text">
-                <h2>Ensino Superior e Técnico</h2>
-                <p>
-                    <ul>
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Ensino Superior e Técnico</h2>
+                <p >
+                    <ul data-aos="fade-left" data-aos-duration="2000">
                         <li>Engenharia de Materiais (UFABC) 2017 - atual</li>
                         <li>Bacharelado em Ciência e Tecnologia (UFABC) 2012 - 2017</li>
                         <li>Técnico em Mecatrônica (ETECGV) 2009 - 2010</li>
@@ -117,13 +118,14 @@
                     </ul>
                 </p>
             </div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="education-picture"></div>
         </section>
 
         <!-- EXCHANGE -->
 
         <section id="first-section-exchange" class="exchange-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>Wayne State University</h1>
                 </div>
@@ -133,10 +135,10 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="exchange-picture"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="exchange-picture"></div>
             <div class="second-section-text">
-                <h2>Intercâmbio pelo CSF</h2>
-                <p>
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Intercâmbio pelo CSF</h2>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Em 2014, tive a oportunidade através do programa ciência sem fronteiras, de fazer um intercâmbio em Detroit - MI - EUA, por um período de 11 meses.
                     <br>
                     O curso em si, foi uma graduação sanduíche, que consiste em inciar o curso superior no Brasil, fazer uma parte no exterior e depois retornar para concluir, o curso em questão foi o bacharelado em ciência e tecnologia, o qual eu concluí em 2017 pela Universidade Federal do ABC.
@@ -148,7 +150,7 @@
 
         <section id="first-section-intern" class="intern-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>General Motors</h1>
                 </div>
@@ -159,26 +161,28 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="intern-picture"></div>
+            
             <div class="second-section-text">
-                <h2>Estágio em DSM
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Estágio em DSM
                     <br>
-                    04/19 – 12/19</h2>
+                    04/19 – 12/19
+                </h2>
                 <p>
-                    <ul>
+                    <ul data-aos="fade-left" data-aos-duration="2000">
                         <li>Atualização e criação de relatórios de análise comparativa de produção e volume programado.</li>
                         <li>Consolidação de dados e apresentações de informações, como participação de mercado e volume da indústria.</li>
                         <li>Envio de pedidos de veículos para a planta através de sistema de gerenciamento de pedidos(POMS) e acompanhamento próximo ao time de planejamento e controle de produção.</li>
                     </ul>
                 </p>
             </div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="intern-picture"></div>
         </section>
 
         <!-- ITAU -->
 
         <section id="first-section-itau" class="itau-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>Itaú</h1>
                 </div>
@@ -189,13 +193,13 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="itau-picture"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" id="picture" class="itau-picture"></div>
             <div class="second-section-text">
-                <h2>Analista de Engenharia de TI
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Analista de Engenharia de TI
                     <br>
                     11/20 – atual</h2>
                 <p>
-                    <ul>
+                    <ul data-aos="fade-left" data-aos-duration="2000">
                         <li>Criação e manutenção de aplicações para sistemas de uso interno</li>
                         <li>Atuação em resolução de incidentes nos canais</li>
                         <li>Gerenciamento de projetos e utilização de metodologia ágil</li>
@@ -208,7 +212,7 @@
 
         <section id="first-section-courses" class="courses-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>Cursos</h1>
                 </div>
@@ -218,11 +222,11 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="courses-picture"></div>
+            
             <div class="second-section-text">
-                <h2>Cursos Realizados</h2>
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Cursos Realizados</h2>
                 <p>
-                    <ul>
+                    <ul data-aos="fade-left" data-aos-duration="2000">
                         <li>Desenvolvedor Júnior - Generation Brasil – 480 horas
                             <br>
                             (07/2020 - 10/2020)
@@ -258,6 +262,7 @@
                     </ul>
                 </p>
             </div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="courses-picture"></div>
         </section>
 
         <!-- PROFESSIONAL -->
@@ -418,7 +423,7 @@
 
         <section id="first-section-web" class="web-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>Desenvolvimento Web</h1>
                 </div>
@@ -428,10 +433,10 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="web-picture"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="web-picture"></div>
             <div class="second-section-text">
-                <h2>Meus projetos</h2>
-                <p>
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Meus projetos</h2>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Aqui você pode encontrar meus projetos de desenvolvimento web, alguns são totalmente desenvolvimento próprio, outros foram desenvolvidos durante cursos, todos você pode ver uma descrição completa ou acessar o códifo-fonte em meus repositórios no
                     <a href="https://github.com/AndrehW27/" target="_blank" rel="noopener noreferrer">GitHub</a>.
                 </p>
@@ -440,12 +445,12 @@
 
         <section class="third-section">
 
-            <div id="img1" class="images"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="img1" class="images"></div>
             <div class="third-section-description">
                 <div class="third-section-title">
-                    <h2>Calculadora de IMC</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000">Calculadora de IMC</h2>
                 </div>
-                <p>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Primeiro projeto estático (HTML/ CSS/ JavaScript), com ele pude aprender/aprimorar principalmente conceitos básicos/intermediários de desenvolvimento front-end, para mais informações, acesse o repositório em meu repositório no GitHub em
                     <a href="https://github.com/AndrehW27/Meu-Portifolio" target="_blank" rel="noopener noreferrer">IMC</a>. Acesse a aplicação
                     <a href="https://andrehw27.github.io/Calculadora_IMC_Peso-Ideal/" target="_blank">aqui</a>.
@@ -453,28 +458,29 @@
             </div>
         </section>
 
-        <section class="third-section">
-            <div id="img2" class="images"></div>
+        <section class="third-section">            
 
             <div class="third-section-description">
                 <div class="third-section-title">
-                    <h2>Meu Site</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000">Meu Site</h2>
                 </div>
-                <p>
+                <p data-aos="fade-right" data-aos-duration="2000">
                     Este site é uma aplicação estática (HTML/ CSS/ JavaScript), que foi utilizado conceitos de boas práticas e organização de código durante seu desenvolvimento, caso tenha interesse em mais informações, pode acessá-lo em meu repositório no GitHub em
                     <a href="https://github.com/AndrehW27/Meu-Portifolio" target="_blank" rel="noopener noreferrer">Meu site</a>.
                 </p>
             </div>
+
+            <div data-aos="flip-right" data-aos-duration="2000" id="img2" class="images2"></div>
         </section>
 
         <section class="third-section">
 
-            <div id="img3" class="images"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="img3" class="images"></div>
             <div class="third-section-description">
                 <div class="third-section-title">
-                    <h2>Ecoleta</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000">Ecoleta</h2>
                 </div>
-                <p>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Aplicação desenvolvida no curso Next Level Week #1 da Rocket Seat, com a intenção de encontrar pontos de coleta seletiva, projeto mais complexo utilizando ferramentas como Node.js e SQLite3 para o back-end, entre outras, para mais informações, acesse o repositório no GitHub em
                     <a href="https://andrehw27.github.io/Calculadora_IMC_Peso-Ideal/" target="_blank">Ecoleta</a>. Acesse a aplicação
                     <a href="https://nlw--ecoleta.herokuapp.com/" target="_blank">aqui</a>.
@@ -484,26 +490,27 @@
 
         <section class="third-section">
 
-            <div id="img4" class="images"></div>
+            
             <div class="third-section-description">
                 <div class="third-section-title">
-                    <h2>Be The Hero</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000">Be The Hero</h2>
                 </div>
-                <p>
+                <p data-aos="fade-right" data-aos-duration="2000">
                     Aplicação desenvolvida no curso Semana OmniStack #8 da Rocket Seat, com a intenção de ajudar ONGs a obter suportes financeiros, projeto desenvolvido com React e React Native para mobile, para mais informações, acesse o repositório no GitHub em
                     <a href="https://github.com/AndrehW27/SemanaOmniStack11.BeTheHero" target="_blank">Be The Hero</a>.
                 </p>
             </div>
+            <div data-aos="flip-right" data-aos-duration="2000" id="img4" class="images2"></div>
         </section>
 
         <section class="third-section">
 
-            <div id="img5" class="images"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="img5" class="images"></div>
             <div class="third-section-description">
                 <div class="third-section-title">
                     <h2>Impacta+</h2>
                 </div>
-                <p>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Projeto final realizado em grupo para a conclusão do bootcamp da Generation Brasil. Projeto de rede social com a intenção de incentivar a doação de sangue. Tecnologias utilizadas Angular 9, bootstrap, Java, Spring Boot e MySQL. Mais informações em
                     <a href="https://github.com/AndrehW27/ImpactaMais" target="_blank" rel="noopener noreferrer">Github</a>. Acesse a aplicação
                     <a href="https://impacta-mais.herokuapp.com/" target="_blank">aqui</a>.
@@ -515,7 +522,7 @@
 
         <section id="first-section-design" class="design-background">
 
-            <div class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000"     class="first-section-title">
                 <div class="title-fadein">
                     <h1>Freelas</h1>
                 </div>
@@ -674,6 +681,11 @@
             </div>
 
         </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
     </body>
 
