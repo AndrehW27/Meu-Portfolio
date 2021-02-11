@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 html {
@@ -67,6 +68,72 @@ h4 {
     font-weight: bold;
     text-align: center;
 }
+
+/* BOOTSTRAP COLLAPSE */
+
+.retangulo{
+    z-index: 99999;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 50px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones{    
+    width: 50px;
+    height: 200px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mais{
+    background-image: url(../assets/icons/mais2.png);  
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.imageC{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#icon1C{
+    background-image: url(../assets/icons/up.png);    
+    width: 40px;
+    height: 40px;
+}
+
+#icon2C{
+    background-image: url(../assets/icons/whatsappGreen.png);    
+    width: 50px;
+    height: 50px;  
+}
+
+#icon3C{
+    background-image: url(../assets/icons/o-email3.png);    
+    width: 50px;
+    height: 50px;
+}
+
+#icon4C{
+    background-image: url(../assets/icons/down.png);    
+    width: 40px;
+    height: 40px;    
+}
+
+/* BOOTSTRAP COLLAPSE */
+
 
 /* HEADER */
 
@@ -163,20 +230,23 @@ header {
     padding: 0 24px 0;
     border: none;
     font-family: 'MuseoModerno', cursive;
+    z-index: 1;
 }
 
 .right-menu {
     position: relative;
     display: inline-block;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 1;
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
+    top: 50px;
     background-color: var(--primary-color);
     min-width: 140px;
-    z-index: 1;
+    /* z-index: 1; */
     /* box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.9); */
 }
 
@@ -210,7 +280,7 @@ header {
     cursor: pointer;
     height: 60px;
     padding: 0 24px;
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--secundary-color);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -218,6 +288,10 @@ header {
 .a-contact:hover {
     color: var(--third-color);
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.h3Contato{
+    padding: 30px 0px;
 }
 
 /* FIRST-SECTION */
@@ -479,12 +553,23 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+
 .contact-linkedin P {
     color: var(--second-color);
 }
 
 .linkedin-icon {
     background-image: url("../assets/icons/linkedin_white.png");
+    background-position: center;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    margin: 0 8px;
+    background-repeat: no-repeat;
+}
+
+.curriculo-icon {
+    background-image: url("../assets/icons/curriculum-vitae.png");
     background-position: center;
     background-size: contain;
     height: 25px;

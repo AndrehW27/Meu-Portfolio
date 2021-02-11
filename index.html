@@ -6,6 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
 
+        <!--BOOTSTRAP COLLAPSE-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
@@ -25,6 +32,31 @@
     </head>
 
     <body>
+
+        <!--BOOTSTRAP COLLAPSE-->
+
+        <div class="retangulo">
+            <div id="iconsId" class="icones collapse">
+                <a href="#first-section">
+                    <div id="icon1C" class="imageC"></div>
+                </a>
+
+                <a href="https://wa.me/5511992603675" target="a_blank">
+                    <div id="icon2C" class="imageC"></div>
+                </a>
+                <a href="mailto:andrewgcarcalho@gmail.com?subject=Gostei do seu site, gostaria de conversar com você.&body=Olá, tudo bem? ...">
+                    <div id="icon3C" class="imageC"></div>
+                </a>
+                 <a href="#contact">
+                    <div id="icon4C" class="imageC"></div>
+                </a>
+            </div>
+            <a href="#" data-toggle="collapse" data-target="#iconsId">
+                <div class="mais imageC"></div>
+            </a>
+        </div>
+
+        <!--BOOTSTRAP COLLAPSE-->
 
         <header>
             <a class="aw-home" href="#first-section">
@@ -50,7 +82,7 @@
             </div>
 
             <div class="right-menu">
-                <button class="menu-button">Portifolio</button>
+                <button class="menu-button">Portfolio</button>
                 <div class="dropdown-menu">
                     <a href="#first-section-web">Web</a>
                     <a href="#first-section-design">Design</a>
@@ -62,13 +94,7 @@
         </header>
 
         <!-- BOTAO + -->
-
-        <a class="botao-mais" href="#first-section">
-            <div id="coluna-box">
-                <div id="icon-mais"></div>
-            </div>
-        </a>
-
+        <!-- <a class="botao-mais" href="#first-section"> <div id="coluna-box"> <div id="icon-mais"></div> </div> </a> -->
         <!-- HOME -->
 
         <section id="first-section" class="home-background">
@@ -161,7 +187,7 @@
         </section>
 
         <section class="second-section">
-            
+
             <div class="second-section-text">
                 <h2 data-aos="zoom-in" data-aos-duration="2000">Estágio em DSM
                     <br>
@@ -193,7 +219,7 @@
         </section>
 
         <section class="second-section">
-            <div data-aos="flip-left" data-aos-duration="2000" id="picture" id="picture" class="itau-picture"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="itau-picture"></div>
             <div class="second-section-text">
                 <h2 data-aos="zoom-in" data-aos-duration="2000">Analista de Engenharia de TI
                     <br>
@@ -222,7 +248,7 @@
         </section>
 
         <section class="second-section">
-            
+
             <div class="second-section-text">
                 <h2 data-aos="zoom-in" data-aos-duration="2000">Cursos Realizados</h2>
                 <p>
@@ -458,7 +484,7 @@
             </div>
         </section>
 
-        <section class="third-section">            
+        <section class="third-section">
 
             <div class="third-section-description">
                 <div class="third-section-title">
@@ -490,7 +516,6 @@
 
         <section class="third-section">
 
-            
             <div class="third-section-description">
                 <div class="third-section-title">
                     <h2 data-aos="zoom-in" data-aos-duration="2000">Be The Hero</h2>
@@ -508,7 +533,7 @@
             <div data-aos="flip-left" data-aos-duration="2000" id="img5" class="images"></div>
             <div class="third-section-description">
                 <div class="third-section-title">
-                    <h2>Impacta+</h2>
+                    <h2 data-aos="zoom-in" data-aos-duration="2000">Impacta+</h2>
                 </div>
                 <p data-aos="fade-left" data-aos-duration="2000">
                     Projeto final realizado em grupo para a conclusão do bootcamp da Generation Brasil. Projeto de rede social com a intenção de incentivar a doação de sangue. Tecnologias utilizadas Angular 9, bootstrap, Java, Spring Boot e MySQL. Mais informações em
@@ -522,7 +547,7 @@
 
         <section id="first-section-design" class="design-background">
 
-            <div data-aos="zoom-in" data-aos-duration="2000"     class="first-section-title">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="first-section-title">
                 <div class="title-fadein">
                     <h1>Freelas</h1>
                 </div>
@@ -532,10 +557,10 @@
         </section>
 
         <section class="second-section">
-            <div id="picture" class="design-picture"></div>
+            <div data-aos="flip-left" data-aos-duration="2000" id="picture" class="design-picture"></div>
             <div class="second-section-text">
-                <h2>Trabalhos Executados</h2>
-                <p>
+                <h2 data-aos="zoom-in" data-aos-duration="2000">Trabalhos Executados</h2>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Fiz alguns trabalhos de design, utilizando softwares como Photoshop e Illustrator.
                     <br>
                     Esses trabalhos podem ser vistos logo abaixo, como logos, capas e layouts.
@@ -545,12 +570,12 @@
 
         <section class="third-section">
 
-            <div id="img11" class="images"></div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img11" class="images"></div>
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Logo - Na Pressão</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Arte criada para um quadro do podcast Marcha e Sai, um podcast sobre o universo gastronômico, você pode encontrá-lo no Spotify
                     <a href="https://open.spotify.com/show/3fvHgSmOBf2Z3E6nP8szSA" target="_blank" rel="noopener noreferrer">aqui</a>.
                 </p>
@@ -559,26 +584,26 @@
 
         <section class="third-section">
 
-            <div id="img12" class="images"></div>
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Layout - Marcha e Sai</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Layout criado para postar o lançamento de novos episódios do podcast Marcha e Sai no Instagram, acesse o instagram deles
                     <a href="https://www.instagram.com/marchaesaipodcast/?hl=pt-br" target="_blank" rel="noopener noreferrer">aqui</a>.
                 </p>
             </div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img12" class="images2"></div>
         </section>
 
         <section class="third-section">
 
-            <div id="img13" class="images"></div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img13" class="images"></div>
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Logo - Rádio Fogão</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Outro logo criado para o podcast marcha e sai, agora para um outro quadro, onde cozinheiros e amigos contam seus causos e histórias dentro do mundo gatronômico, acesse o instagram deles
                     <a href="https://www.instagram.com/marchaesaipodcast/?hl=pt-br" target="_blank" rel="noopener noreferrer">aqui</a>.
                 </p>
@@ -587,49 +612,50 @@
 
         <section class="third-section">
 
-            <div id="img14" class="images"></div>
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Capa - Apoie-se</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Mais um trabalho para o podcast Marcha e sai, agora uma capa para o site apoie-se para dar um suporte ao podcast, você pode conferir a capa, e se quiser contribuir com o podcast
                     <a href="https://" target="_blank">aqui</a>.
                 </p>
             </div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img14" class="images2"></div>
         </section>
 
         <section class="third-section">
-            <div id="img15" class="images"></div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img15" class="images"></div>
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Logo - Fim de Rolê</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Logo criado para o projeto de lançamento de um podcast novo, chamado Fim de Rolê, um podcast sobre todas as fases da vida entre a adolescência e o início da vida adulta.
                 </p>
             </div>
         </section>
 
         <section class="third-section">
-            <div id="img16" class="images"></div>
+
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Logo - SuBurguer</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Logo criado para hamburgueria delivery caseira com a intenção de vender delivery por aplicativo.
                 </p>
             </div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img16" class="images2"></div>
         </section>
 
         <section class="third-section">
-            <div id="img17" class="images"></div>
+            <div data-aos="zoom-in" data-aos-duration="2000" id="img17" class="images"></div>
             <div class="third-section-description">
-                <div class="third-section-title">
+                <div data-aos="fade-down" data-aos-duration="2000" class="third-section-title">
                     <h2>Panfleto - Suburguer</h2>
                 </div>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                     Panfleto completo, com todos os lanches vendidos pela hamburgueria (existe também a arte de cada lanche separado). Vale ressaltar que tive participação ativa tanto na confecção dos lanches, quanto na fotografia dos mesmos.
                 </p>
             </div>
@@ -640,18 +666,22 @@
         <footer>
 
             <div id="contact">
-                <h3>CONTATO</h3>
+                <h3 class="h3Contato">CONTATO</h3>
                 <a class="contact-email" href="mailto:andrewgcarcalho@gmail.com?subject=Gostei do seu site, gostaria de conversar com você.&body=Olá, tudo bem? ...">
                     <div class="email-icon"></div>
                     <p>andrewgcarvalho@gmail.com</p>
                 </a>
-                <div class="contact-phone">
-                    <div class="cellphone-icon"></div>
-                    <p>(11) 99260-3675</p>
-                </div>
                 <div class="contact-linkedin">
                     <div class="linkedin-icon"></div>
                     <p>andrecarvalho3</p>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="curriculo-icon" style="margin-left:20px;"></div>
+                    <p>currículo</p>
+                </div>
+
+                <div class="contact-phone">
+                    <div class="cellphone-icon"></div>
+                    <p>(11) 99260-3675</p>
                 </div>
             </div>
 
